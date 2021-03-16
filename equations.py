@@ -26,7 +26,7 @@ def exponent (x:float) -> float:
 
 
 
-def Ln (x:float) -> float:
+def ln (x:float) -> float:
     if x <= 0:
         return 0
     else:
@@ -44,7 +44,7 @@ def Ln (x:float) -> float:
 def XtimesY (x:float, y:float) -> float:
     if x <= 0: 
         return 0
-    result = exponent( y * Ln(x))
+    result = exponent( y * ln(x))
     result = float('%0.6f' % result)
     return result
 
