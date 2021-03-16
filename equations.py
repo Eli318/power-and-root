@@ -64,8 +64,3 @@ def calculate(x:float) -> float:
     result = float('%0.6f' % result)
     return result
 
-
-
-x = float(input("Enter number: "))
-f_x = calculate(x)
-print (f_x)
