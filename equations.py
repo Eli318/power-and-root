@@ -51,7 +51,7 @@ def XtimesY (x:float, y:float) -> float:
 
 
 def sqrt (x:float, y:float) -> float:
-    if y <= 0:
+    if y <= 0 or x == 0:
         return 0
     else:
         result = XtimesY(y, 1/x)
